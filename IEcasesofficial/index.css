@@ -1,0 +1,16 @@
+@font-face{
+font-family: "fuentes";
+src: url(./fonts/Raleway-Regular.ttf);
+}
+@font-face{
+font-family: "Historia";
+src: url(./fonts/Raleway-Regular.ttf);
+}
+body{
+    font-family: "fuentes"; 
+}
+.flex{
+display: flex;
+justify-content: center;
+align-content: center;
+}
