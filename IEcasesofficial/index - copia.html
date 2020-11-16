@@ -7,61 +7,84 @@
   <title>IECases</title>
   <link rel="stylesheet" href="index.css">
 </head>
-<body></body>
+<body>
   <style>
-    body {
-      font-size: 18px;
-      background-color: rgb(0, 0, 0);
-      color: white;
-    }
-    a{
-      text-decoration: none;
-      color: white;
-      font-size: 24px;
-    } 
-    
-    }
+body{
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    font-family: "fuentes"; 
+}
 
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 16px;
+}
+#logo{
+    width: 150px;
+}
+
+nav{
+    background-color: transparent;
+}
+nav ol{
+   display: flex;
+}
+nav ol li{
+    margin: 0px 16px;
+    list-style: none;
+}
+nav ol li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Historia";
+}
+nav ol li a:hover {
+  color: violet;
+}
+.flex{
+    flex: 1;
+}
 
   </style>
-  <header>
-  <div class="flex"> <img src="logo IEcases.jpeg" alt="logo"></div> 
-  <div id="hero"></div>
-    <nav>
-      <al>
-        <li>
-          <a  href="index.html"Inicio>
-          Inicio
-        </a>
-        </li>
-        <li>
-          <a href="Fundas Personalizadas.html"Fundas Personalizadas>
-          Fundas Personalizadas
-        </a>
-        </li>
-        <li>
-          <a href="Fundas de Temporada.html"Fundas de Temporada>
-          Fundas de Temporada
-        </a>
-        </li>
-        <li>
-          <a href="Tu Funda Ideal.html"Tu Funda Ideal>
-          Tu Funda Ideal
-        </a>
-        </li>
-        <li>
-          <a href="Otros.html"Otros>
-          Otros
+    <header>
+      <img id="logo" src="logo IEcases.jpeg">
+      <span class="flex"></span>
+      <nav>
+        <ol>
+          <li>
+            <a  href="index.html"Inicio>
+            Inicio
           </a>
-        
-        </li>
-      </al>
-    </nav>
-
-    
+          </li>
+          <li>
+            <a href="Fundas Personalizadas.html"Fundas Personalizadas>
+            Fundas Personalizadas
+          </a>
+          </li>
+          <li>
+            <a href="Fundas de Temporada.html"Fundas de Temporada>
+            Fundas de Temporada
+          </a>
+          </li>
+          <li>
+            <a href="Tu Funda Ideal.html"Tu Funda Ideal>
+            Tu Funda Ideal
+          </a>
+          </li>
+          <li>
+            <a href="Otros.html"Otros>
+            Otros
+            </a>
+          </li>
+        </ol>
+      </nav>
   </header>
   <section id="contenedor1">
-    <div id="image-container"></div>
+    <div id="hero"></div>
     
     <h1>Historia</h1>
     <h2>Paquetes</h2>
