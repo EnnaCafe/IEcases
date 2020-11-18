@@ -7,10 +7,93 @@ font-family: "Historia";
 src: url(./fonts/Raleway-Regular.ttf);
 }
 body{
+    font-size: 18px;
+    background-color: black;
+    color: white;
     font-family: "fuentes"; 
 }
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 16px;
+}
+#logo{
+    width: 150px;
+}
+
+nav{
+    background-color: transparent;
+}
+nav ol{
+   display: flex;
+}
+nav ol li{
+    margin: 0px 16px;
+    list-style: none;
+}
+nav ol li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: "Historia";
+}
+nav ol li a :hover {
+    color:( black ) ;
+}
 .flex{
-display: flex;
-justify-content: center;
-align-content: center;
+    flex: 1;
+}
+.twitter-tweet.twitter-tweet-rendered{
+    margin: 0 auto;
+}
+#hero{
+    width: 100%;
+    height: 600px;
+    background-image:linear-gradient(transparent, black), url(../IEcasesofficial/images/imagendeinicio.jpg);
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-size: cover;
+}
+#contenedor1{
+background-image: url(../IEcasesofficial/images/tambien.jpg) ;
+margin-top: 460px;
+background-size: cover;
+background-attachment: fixed;
+background-position: center;
+background-position-y: 1%;
+}
+#contenedor2{
+    background-image: url(../IEcasesofficial/images/tambien.jpg);
+    margin-top: 150px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-position-y: 10%;
+}
+#FB{
+    width: 20px;
+}
+#IG{
+    width: 20px;
+}
+#PIN{
+    width: 20px;
+}
+#TT{
+    width: 20px;
+}
+#WA{
+    width: 20px;
+}
+#contenedor5{
+    margin-top: 440px;
+}
+#contenedor3{
+    margin-top: 440px;
+}
+#contenedor4{
+    margin-top: 440px;
 }
