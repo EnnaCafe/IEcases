@@ -35,7 +35,7 @@ nav ol li{
 }
 nav ol li a{
     text-decoration: none;
-    color: white;
+    color:white;
     font-size: 20px;
     font-family: "Historia";
 }
@@ -58,7 +58,7 @@ nav ol li a :hover {
     background-size: cover;
 }
 #contenedor1{
-background-image: url(../IEcasesofficial/images/tambien.jpg) ;
+background-image: url(negro.jpg) ;
 margin-top: 460px;
 background-size: cover;
 background-attachment: fixed;
@@ -96,8 +96,4 @@ background-position-y: 1%;
 }
 #contenedor4{
     margin-top: 440px;
-}
-#contenedor6{
-    margin-top: 440px;
-
 }
