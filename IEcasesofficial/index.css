@@ -97,3 +97,22 @@ background-position-y: 1%;
 #contenedor4{
     margin-top: 440px;
 }
+#contenedor6{
+    margin-top: 440px;
+}
+#video-conteiner iframe{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 64px auto;
+    width: 80%;
+    height: 80%;
+}
+#parrafos{
+    text-align: center;
+    width: 100 %;
+}
+
+}
