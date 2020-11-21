@@ -100,7 +100,13 @@ background-position-y: 1%;
 #contenedor6{
     margin-top: 440px;
 }
-#video-conteiner iframe{
+#video-container{
+    position: relative;
+    overflow: hidden ;
+    width: 100%;
+    padding-top: 56.25%;
+}
+#video-conteiner iframe {
     position: absolute;
     top: 0;
     right: 0;
@@ -112,7 +118,11 @@ background-position-y: 1%;
 }
 #parrafos{
     text-align: center;
-    width: 100 %;
-}
-
+    width: 100%;
+} 
+@keyframes animation{
+    0%{color: white; bottom: 0; }
+    33%{color: gray; bottom: 10px;}
+    66%{color: orange; bottom: 5px;}
+    100%{color: white; bottom: 0;}
 }
