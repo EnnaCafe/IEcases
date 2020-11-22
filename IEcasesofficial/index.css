@@ -120,9 +120,4 @@ background-position-y: 1%;
     text-align: center;
     width: 100%;
 } 
-@keyframes animation{
-    0%{color: white; bottom: 0; }
-    33%{color: gray; bottom: 10px;}
-    66%{color: orange; bottom: 5px;}
-    100%{color: white; bottom: 0;}
-}
+
